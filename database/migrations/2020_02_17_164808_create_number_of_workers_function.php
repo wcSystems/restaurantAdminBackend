@@ -14,13 +14,13 @@ class CreateNumberOfWorkersFunction extends Migration
      */
     public function up()
     {
-        DB::unprepared("CREATE FUNCTION `number_of_workers`() RETURNS int(11)
+       /*  DB::unprepared("CREATE FUNCTION `number_of_workers`() RETURNS int(11)
             BEGIN
                 DECLARE nw INTEGER;
                 SELECT count(*) INTO nw FROM employees;
             RETURN nw;
             END"
-        );
+        ); */
     }
 
     /**
