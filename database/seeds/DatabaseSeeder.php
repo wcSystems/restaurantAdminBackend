@@ -11,7 +11,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $faker = Faker\Factory::create('es_VE');
+        // $faker = Faker\Factory::create('es_VE');
 
         $this->call('FixedCostTableSeeder');
         $this->call('JobTableSeeder');
